@@ -13,5 +13,5 @@ if (true) {
 }
 
 if (true) {
-  document.write("こんにちは！");
+  console.log("こんにちは！");
 }

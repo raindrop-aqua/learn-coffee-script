@@ -1,10 +1,10 @@
-alert("Hello");
-alert("Hello")
-alert "Hello";
-alert "Hello"
+console.log("Hello");
+console.log("Hello")
+console.log "Hello";
+console.log "Hello"
 
 if true
-  alert "Hello"
+  console.log "Hello"
 
 if true
-  document.write "こんにちは！"
+  console.log "こんにちは！"
