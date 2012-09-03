@@ -3,12 +3,16 @@ var hoge;
 
 hoge = 100;
 
-document.write(hoge);
+console.log(hoge);
 
 hoge = "This is local.";
 
-document.write(hoge);
+console.log(hoge);
 
-window.hoge = 200;
+global.hoge = 200;
 
-window.hoge = "This is global.";
+console.log(global.hoge);
+
+global.hoge = "This is global.";
+
+console.log(global.hoge);

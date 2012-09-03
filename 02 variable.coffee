@@ -1,7 +1,9 @@
 hoge = 100
-document.write hoge
+console.log hoge
 hoge = "This is local."
-document.write hoge
+console.log hoge
 
-window.hoge = 200
-window.hoge = "This is global."
+global.hoge = 200
+console.log global.hoge
+global.hoge = "This is global."
+console.log global.hoge
